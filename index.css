@@ -267,7 +267,7 @@ footer {
 
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 380px) {
     .titleContainer h2 {
         font-size: 18px;
         align-self: center;
@@ -290,12 +290,21 @@ footer {
         gap: 10px;
         font-size: 20px;
         align-self: center;
+
     }
 
     .socailMediaContainer h2 {
         font-size: 20px;
+        text-align: center;
     }
-
+  
+    .titleContainer{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
     .socialMediaList {
         justify-content: center;
     }
